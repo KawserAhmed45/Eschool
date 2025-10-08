@@ -1,0 +1,231 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+ /* Global css */
+ body{
+ 	 font-family: 'popins', sans-serif;
+ 	 font-size: 16px;
+     font-weight: 400px;
+     line-height: 30px;
+     color: #000;
+ }
+ a{
+ 	text-decoration: none;
+
+ }
+ a:hover{
+ 	color: #56548C;
+
+ }
+
+
+  /* Hero section css */
+  header{
+  	background: #F0FFF0;
+  }
+  .nav-item{
+  	margin: 0 10px;
+  }
+  .nav-link{
+  	color: #000;
+  	text-transform: capitalize;
+  	font-size: 16px;
+  	font-weight: 400;
+  }
+  .nav-link:hover{
+  	color: #56548C;
+  }
+  .nav-item .signin{
+  	background: #21B573;
+  	color: #fff;
+  	padding: 9px 25px !important;
+  	border-radius: 25px;
+  	transition: all 0.3s ease-in-out;
+  }
+  .nav-item .signin:hover{
+  	background: #56548C;
+  }
+
+  /* Banner section start */
+  .banner-section{
+  	background: #F0FFF0;
+  	padding: 100px 0;
+
+  }
+  .banner-section h4{
+  	font-size: 16px;
+  	font-weight: 400;
+  	color: #FD511A;
+  }
+  .banner-section h1{
+  	padding-right: 160px;
+  	font-size: 48px;
+  	font-weight: 700;
+  	line-height: 55px;
+  	margin: 15px 0;
+  }
+  .banner-section h1 span{
+  	color: #21B573;
+  }
+  .banner-section p{
+  	color: #000;
+  	line-height: 39px;
+  	padding-right: 160px;
+  	font-weight: 600;
+  }
+  .banner-section a{
+  	background: #21B573;
+  	padding: 10px 30px;
+  	border-radius: 1px solid #56548C;
+  	color: #fff;
+  	border-radius: 25px;
+  	display: inline-block;
+  	transition: all 0.3s ease-in-out;
+  }
+  .banner-section a:hover{
+  	background: #56548C;
+  }
+
+  /* Feeature section */
+  .features-section{
+  	padding: 50px 0 10px;
+  }
+   .features-item{
+   	background: #F8FFFB;
+   	padding: 50px 30px;
+   	border-radius: 20px;
+   	transition: all 0.3s ease-in-out;
+   }
+    .features-item:hover{
+    	background: #fff; 
+    	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    	cursor: pointer;
+    }
+  .features-item img{
+  	display: block;
+  	margin: 0 auto;
+  	width: 70px;
+  	height: 70px;
+  }
+  .features-item h3{  
+  	text-align: center;
+  	font-size: 25px;
+  	color: #413960;
+  	margin: 15px 0 0px;
+  	font-weight: 600;
+
+  }
+  .features-item p{
+  	text-align: center;
+  	font-weight: 300 ;
+  }
+
+  /* Courses section */
+
+  .courses-section{
+  	padding: 75px 0;
+  }
+  .courses-section h2{
+  	color: #000;
+  	font-weight: 600;
+  	font-size: 36px;
+  	line-height: 54px;
+  	text-align: center;
+  }
+  .courses-row{
+  	margin-top: 75px;
+  }
+  .courses-item{
+  	padding: 20px;
+  	background: #fff;
+  	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  	border-radius: 15px;
+
+  }
+  .courses-item h3{
+  	font-size: 24px;
+  	margin: 20px 0 0px;
+  	font-weight: 500;
+  	color: #413960;
+  }
+  .courses-item p{
+  	font-size: 16px;
+  	font-weight: 300;
+
+  }
+  .courses-item button{
+  	background: #21B573;
+    border: 0;
+  	border-radius: 1px solid #21B573;
+  	padding: 3px 20px;
+  	border-radius: 25px;
+  	color: #fff;
+  	transition: all 0.3s ease-in-out;
+
+  }
+  .courses-item button:hover{
+  	background: #413960;
+  	border-radius: 1px solid #413960;
+  }
+  .courses-item ul{
+  	padding: 0;
+  	margin: 15px 0 0;
+  }
+  .courses-item ul li{
+  	list-style: none;
+  	display: inline-block;
+  	color: #585859;
+  }
+  .courses-item ul li:last-child{
+  	float: right;
+  }
+  .courses-item ul li .fa-solid{
+  	color: #585859;
+  }
+  .courses-item ul li span{
+  	padding: 7px 0;
+  }
+
+  /* Testimonial section */
+
+  .testimonial-section{
+  	padding: 75px 0;
+  }
+  .testimonial-section h2{
+  	color: #000;
+  	font-weight: 600;
+  	font-size: 36px;
+  	line-height: 54px;
+  	text-align: center;
+  }
+  .item p{
+  	font-size: 17px;
+  	font-weight: 500;
+  	line-height: 25px;
+  	padding: 0 35px;
+  }
+
+  /*Footer section start*/
+
+  .footer-section{
+    background-color: #282531;
+    color: white;
+    padding: 70px 0 30px ;
+  }
+.footer-section h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-section p {
+    padding-right: 30px;
+}
+.footer-section .items p{
+    padding-right: 90px;
+    font-size: 15px;
+}
+.footer-section .footer-down{
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
